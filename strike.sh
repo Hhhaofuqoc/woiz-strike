@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # WOIZ STRIKE MENU - 1 comando, escolhe numero e ja ataca
-RAW="https://raw.githubusercontent.com/Hhhaofuqoc/woiz-strike/main"
+RAW="https://cdn.jsdelivr.net/gh/Hhhaofuqoc/woiz-strike@main"
 echo "=============================="
 echo "      W O I Z  S T R I K E"
 echo "=============================="
