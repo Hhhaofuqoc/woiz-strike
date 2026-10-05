@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-RAW="https://raw.githubusercontent.com/Hhhaofuqoc/woiz-strike/ccc18ca76b1b7922a1301654d65b908af7dc77d7"
+RAW="https://raw.githubusercontent.com/Hhhaofuqoc/woiz-strike/a62c9141bed87d2cdb4acad13b043bb350c57bb1"
 OP="$1"
 if [ -z "$OP" ]; then
   echo " [1] FLOOD SITE+PAINEL+IP"
